@@ -1,0 +1,24 @@
+[shell]
+program = "/bin/bash"
+
+[window]
+title = "Terminal"
+dynamic_title = false
+opacity = 0.85
+padding = { x = 3, y = 3 }
+
+[font.normal]
+family = "monospace"
+style = "Roboto"
+
+[cursor.style]
+shape = "Underline"
+blinking = "Always"
+
+[colors.primary]
+foreground = "#20a020"
+background = "#181818"
+
+
+#Colors green = #20a020
+#Colors res   = #a02020
