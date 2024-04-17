@@ -14,20 +14,13 @@ set mouse=nvi
 set termguicolors
 
 
+autocmd BufWritePost *.c make compile <afile>
+autocmd BufWritePost *.h make compile <afile>
+autocmd BufWritePost *.cpp make compile <afile>
+autocmd BufWritePost *.hpp make compile <afile>
 
 
 " set colorscheme
 colorscheme gruvbox
 ":colorscheme habamax
 "colorscheme koehler
-
-
-" commnads
-"treesitter
-nnoremap ff <cmd>Telescope find_files<cr>
-nnoremap fg <cmd>Telescope live_grep<cr>
-nnoremap fb <cmd>Telescope buffers<cr>
-nnoremap fh <cmd>Telescope help_tags<cr>
-
-" auto commands
-

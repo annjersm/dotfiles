@@ -1,7 +1,13 @@
 require ('plugins')
 
-
 vim.cmd (":source ~/.config/nvim/legacy.vim")
+
+vim.g.mapleader = " "
+vim.keymap.set("n", "<F3>", ":vs ~/.config/nvim/init.lua<cr>")
+vim.keymap.set("n", "<C-F3>", ":source ~/.config/nvim/init.lua<cr>")
+vim.keymap.set("n", "<C-j>", ":cnext<cr>")
+vim.keymap.set("n", "<C-k>", ":cprev<cr>")
+
 
 require ('lsp')
 
@@ -24,7 +30,15 @@ require ('nvim-web-devicons').setup {
 require ('transparent').setup {
 }
 require ('nvim-treesitter').setup {
-	ensure_installed = {"c", "cpp", "lua", "vim", "vimdoc", "query"},
+	ensure_installed = {
+		"c",
+		"cpp",
+		"lua",
+		"lua_ls",
+		"vim",
+		"vimdoc",
+		"query"
+	},
 	sync_install = false,
 	auto_install = true,
 	ignore_install = {},
@@ -41,6 +55,17 @@ require ('telescope').setup {
 		},
 	},
 }
+local builtin = require("telescope.builtin")
+vim.keymap.set("n", "<leader>sh", builtin.help_tags)
+vim.keymap.set("n", "<leader>sk", builtin.keymaps)
+vim.keymap.set("n", "<leader>f", builtin.find_files)
+vim.keymap.set("n", "<leader>ss", builtin.builtin)
+vim.keymap.set("n", "<leader>sw", builtin.grep_string)
+vim.keymap.set("n", "<leader>sg", builtin.live_grep)
+vim.keymap.set("n", "<leader>sd", builtin.diagnostics)
+vim.keymap.set("n", "<leader>sr", builtin.resume)
+vim.keymap.set("n", "<leader>s.", builtin.oldfiles)
+
 require ('ibl').setup {
 }
 require ('hardline').setup {
