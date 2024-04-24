@@ -1,0 +1,119 @@
+cd Repo/test
+source ~/.config/zsh/.zshrc
+cd Repo/test
+exit
+cd Repo/test
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+exit
+source ~/.config/zsh/.zshrc
+exit
+source ~/.config/zsh/.zshrc
+exit
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+cd src
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+cd ..
+cd
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+exit
+cd Repo
+cd test
+ls
+cd Repo/test
+exit
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+cd
+exit
+exit
+cd Repo
+ls
+cd test
+cd
+ls -a .config/zsh
+mv .config/zsh/.zshrc .
+exit
+cd Repo/test
+ls
+cd ..
+cd
+vim
+vim .zshrc
+cd Repo/test
+exit
+vim .zshrc
+source .zshrc
+ls
+cd Repo
+cd test
+vim ~/.zr
+vim 
+vim ~/.zshrc
+cd
+tmux
+cd Repo/test
+pwd
+vim .zshrc
+ls
+ls -a
+ls
+ls -a
+mv .zshrc .config/zsh/.
+ls -a
+cd .config
+ls
+rm zsh_history
+exit
+exit
+exit
+tmux
+cd Repo/test
+ls
+ls -a
+cd .config
+ls
+ls zsh
+ls
+ls -a
+cd zsh
+ls -a
+vim .zshrc
+exit
+exit
+exit

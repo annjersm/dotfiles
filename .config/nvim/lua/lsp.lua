@@ -48,6 +48,10 @@ require 'cmp'.setup.cmdline( ':', {
 	matching = { disallow_symbol_nonprefix_matching = false }
 })
 
-require 'lspconfig'.clangd.setup {
-}
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
+require 'lspconfig'.clangd.setup {
+	capabilities = capabilities
+}
+require 'lspconfig'.pyright.setup {
+}
