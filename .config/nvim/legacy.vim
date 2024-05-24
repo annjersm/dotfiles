@@ -1,13 +1,16 @@
-"filetype on
-"filetype plugin on
-"filetype indent on
+filetype on
+filetype plugin on
+filetype indent on
 
-"set number
-"set relativenumber
+set number
+set relativenumber
+
 set cursorline
+
 set shiftwidth=8
 set tabstop=8
-"set colorcolumn=80
+
+set colorcolumn=80
 set incsearch
 set showcmd
 set mouse=nvi

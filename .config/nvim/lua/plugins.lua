@@ -18,7 +18,15 @@ Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 -- LSP : End
 
+-- Colorsheme
+Plug 'bluz71/vim-moonfly-colors'
+Plug 'ray-x/aurora'
+Plug 'maxmx03/fluoromachine.nvim'
+Plug 'hachy/eva01.vim'
+Plug 'water-sucks/darkrose.nvim'
+Plug 'Shadorain/shadotheme'
 
+Plug 'NvChad/nvim-colorizer.lua'
 Plug 'lukas-reineke/indent-blankline.nvim' -- Indent Blankline
 Plug 'RRethy/vim-illuminate'
 Plug 'nvim-treesitter/nvim-treesitter'

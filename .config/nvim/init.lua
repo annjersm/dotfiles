@@ -6,12 +6,19 @@ require 'remap'
 require 'lsp'
 require 'set'
 
+run_ctags()
+--run_make_compile()
+
 vim.cmd "filetype on"
 vim.cmd "filetype plugin on"
 vim.cmd "filetype indent on"
 vim.cmd "set number"
 vim.cmd "set relativenumber"
-vim.cmd "colorscheme tokyodark"
+vim.cmd "set guicursor=n-v-c-i:block-blinkon100-blinkoff100-blinkwait100"
+
+vim.cmd 'colorscheme darkrose'
+vim.cmd 'colorscheme test'
+--vim.cmd "colorscheme tokyodark"
 --vim.cmd 'colorscheme gruvbox'
 
 require ('nvim-autopairs').setup {
@@ -94,3 +101,4 @@ require ('glow').setup {
 }
 require ('trouble').setup {
 }
+require 'colorizer'.setup()

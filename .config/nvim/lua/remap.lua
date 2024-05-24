@@ -5,10 +5,23 @@ vim.keymap.set("n", "<C-j>", ":cnext<cr>")
 vim.keymap.set("n", "<C-k>", ":cprev<cr>")
 vim.keymap.set("n", "<F10>", ":TransparentToggle<cr>")
 
-vim.cmd("autocmd BufWritePost *.c make compile <afile>")
-vim.cmd("autocmd BufWritePost *.h make compile <afile>")
-vim.cmd("autocmd BufWritePost *.cpp make compile <afile>")
-vim.cmd("autocmd BufWritePost *.hpp make compile <afile>")
+function run_ctags ()
+	vim.print('cTags')
+	vim.cmd("autocmd BufWritePost *.c !ctags -R src/ <afile>")
+	vim.cmd("autocmd BufWritePost *.h !ctags -R src/ <afile>")
+
+	vim.cmd("autocmd BufWritePost *.cpp !ctags -R src/ <afile>")
+	vim.cmd("autocmd BufWritePost *.hpp !ctags -R src/ <afile>")
+end
+
+function run_make_compile ()
+	vim.print('make compile')
+	vim.cmd("autocmd BufWritePost *.c make compile <afile>")
+	vim.cmd("autocmd BufWritePost *.h make compile <afile>")
+
+	vim.cmd("autocmd BufWritePost *.cpp make compile <afile>")
+	vim.cmd("autocmd BufWritePost *.hpp make compile <afile>")
+end
 
 -- Telescope
 local builtin = require("telescope.builtin")
