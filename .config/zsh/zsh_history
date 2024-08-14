@@ -1,0 +1,431 @@
+source ~/.config/zsh/.zshrc
+ls -a .config/zsh
+mv .config/zsh/.zshrc .
+source .zshrc
+cd test
+vim ~/.zr
+vim 
+vim ~/.zshrc
+mv .zshrc .config/zsh/.
+tmux
+cd Repo/test
+cd .config
+ls zsh
+vim .zshrc
+rm .zsh_history
+zsh
+ls Nedlastinger
+ls Dokumenter/GitHub
+ls Dokumenter/GitHub/dotfiles
+ls -a Dokumenter/GitHub/dotfiles
+ls -a Dokumenter/GitHub/dotfiles/.config
+cp -r .config/zsh Dokumenter/GitHub/dotfiles/.config/.
+cp -r .config/awesome Dokumenter/GitHub/dotfiles/.config/.
+cp -r .config/alacritty Dokumenter/GitHub/dotfiles/.config/.
+cp -r .config/nvim Dokumenter/GitHub/dotfiles/.config/.
+ls Dokumenter/GitHub/dotfiles/.config
+cd Dokumenter/GitHub/dotfiles/.config
+cd zsh
+rm zsh_history
+rm alias
+cat .zcompdump| less
+git add *
+git add .config/*
+git status
+git commit -m "update"
+musikcube
+ls src/*c
+ls src/*h
+ls -l src/*h
+ls -lr src/*h
+ls -lah src/*h
+ls -lah src/*h src/utils/*.h
+make rc
+man ranger
+ls /etc/ranger
+ls /etc/ranger/config
+vim /etc/ranger/config/rc.conf
+vim /etc/ranger/config/rifle.conf
+lua main.lua
+lua
+vim main.lua 
+vim .config/zsh/.zshrc
+source .config/zsh/.zshrc
+vim .config/newsboat/urls
+vertopal
+mv feed.xml open_feed.xml
+vim feed.xml
+vim open_feed.xml
+vim ~/.config/newsboat/urls
+touch test_feed.xml
+vim test_feed.xml
+Obsidian
+Obsidian &
+ps
+sudo apt instal hugo
+sudo apt install hugo
+hugo help new
+mkdir hugo
+cd hugo
+hugo
+hugo version
+hugo new site quickstart
+cd quickstart
+git submodule add https://github.com/theNewDynamic/gohugo-theme-anake.git
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke\
+
+echo "theme = 'anake'" >> hugo.toml
+hugo server
+cd content
+mkdir posts
+cd posts
+vim my-first-post.md
+cd ../..
+hugo server --buildDrafts
+hugo server -D
+rm hugo.toml
+timedatectl
+rm -r content/*
+ls content
+ls themes
+vim config.toml
+hugo new content posts/my-first-post.md
+hugo -D
+ps -e | grep brave
+make rc run
+ping 1,1,1,1
+ping 192.168.1.1
+ping 192.168.0.1
+vim chess.md
+tmux_init
+newsboat
+vim zsh/.zshrc
+mkdir music
+mv *.mp3 music/.
+cd music
+ls -lah | less
+ks -l
+ls -l
+ls -la
+ls -lh
+ls -lh | less
+ranger
+mv * ~/Musikk/.
+rmdir music
+cd 
+tmux new -s test -d "cd Skrivebord/"
+tmux new -s test -d
+vim bin/tmux_init.sh
+tmux new-window -t test -d
+touch test.sh
+chmod +x test.sh
+man tmux
+exti
+./test.sh
+tmux a foo
+tmux a -t foo
+rm text.h
+rm text.c
+mskr
+make celan
+ls bin
+yt-dlp --help | less
+yt-dlp
+yt-dlp https://www.youtube.com/watch?v=z7QDbCsaQR8
+rm ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\)\ \[z7QDbCsaQR8\].f313.webm.part 
+cd Skrivebord/
+yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=z7QDbCsaQR8
+vlc ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\)\ \[z7QDbCsaQR8\].mp3
+mv ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\)\ \[z7QDbCsaQR8\].mp3 ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\).mp3
+mv ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\).mp3 ~/Musikk/.
+cd Musikk
+sl
+mkdir The\ White\ Stripes
+mkdir Måneskin
+mkdir DDE
+mv The\ White\ Stripes\ -\ * The\ White\ Stripes/.
+mkdir RedHook
+mv RedHook\ -\ * RedHook/.
+mkdir Rammstein
+mv Rammstein\ -\ * Rammstein/.
+mv Måneskin\ -\ * Måneskin/.
+mkdir Jimin
+mv Jimin\ -\ * Jimin/.
+mkdir Sophie\ Frear
+mv Sophie\ Frear\ -\ * Sophie\ Frear/.
+mkdir Andrea\ Botez
+mv ANDREA\ BOTEZ\ -\ QUEEN\'S\ GAMBIT\ \(FT.\ BISKUWI\).mp3 Andrea\ Botez/.
+vlc The\ Only\ Thing\ They\ Fear\ Is\ You.mp3
+mkdir Mike\ Gordon
+mv The\ Only\ Thing\ They\ Fear\ Is\ You.mp3 Mike\ Gordon/.
+
+vim Opening\ Tree.md
+cd Obsidian\ Vault
+vim Fallout\ Vaults.md
+ls .steam
+cd /media/annjersm/steamLib/SteamLibrary
+cd steamapps
+cd compatdata
+cd 244850
+rm -r pfx
+ip add
+systemctl statud sshd
+/etc/init.d/sshd start
+sudo /etc/init.d/sshd start
+sudo systemctl start sshd.service
+sudo apt install sshd
+bash
+ls /etc/init.d/
+ssh
+sudo apt install openssh-server
+sudo systemctl start sshd
+kill 4851
+ps -e | grep app
+sudo systemctl stop sshd
+ls 
+mkdir crack
+cd crack
+mkdir missy
+cd missy
+tmux new -s crack
+mkdir files
+cd files
+mkdir images
+mkdir videos
+touch search.md
+vim search.md
+touch content.md
+mv *.jpg ~/Skrivebord/crack/missy/files/images/.
+cd crack/missy
+cd files/images
+mv 137ac5e5d68f74d4db6dcef12f5895b442b8d2d6680c4b5b8fd7dc0992e17386.jpg 4.jpg
+mv 27228e585d2cc8531497324f4730fdbc444f6f79e6e40c38d2f0fc3341dc10f9.jpg 5.jpg
+mv d38a5845df5ea8c6c5fc66ba8fc452b8731fe708765a98d08c93dab7a6d45f10.jpg 1.jpg
+mv d96326e34f5f4bddb19570f1d008ef8fbe0f123b31f323d2ae3c072f490db1d5.jpg 2.jpg
+mv f2c429d8ebbe7badab20471efafa1b3c4dac878e0bcd4ec06913760cf07aa824.jpg 3.jpg
+unzip Billie-Eilish-billieeilish--S1ysZCwK.zip
+cd Billie\ Eilish\ \(@billieeilish\)
+tmux a -t terminal
+systemctl stop sshd
+systemctl status sshd
+cd ls
+cd -a
+ls .deps
+ls Crack
+mv Skrivebord/crack Crack/.crack
+ls -a Crack
+tor
+tor-browser
+xinput --version
+xinput --list
+xinput --enable 17
+cloc src
+cloc src Makefile
+rm -r template
+vi
+vi .
+vi tmux-client-9836.log
+vim cv.md
+rm cv.md
+cat cv.odt
+cd .config/zsh/
+vim .
+ls .local
+ls .local/bin
+ls .cache
+ls .ssh
+cat .ssh/known_hosts
+cd Frys\ Planogram
+cat 2426_Frys_4x375_7_31.pdf
+cat 2426_Frys_4x375_7_31.pdf | less
+cat 2426_Frys_4x375_7_31.pdf | less -N
+cat varer.ods | less -N
+cd jobb
+mv Frys\ Planogram/varer.* .
+cat varer.csv| less -N
+vim test.csv
+touch test2.csv
+vim test2.csv
+systemctl status NetworkManager
+reboot
+cd Dokumenter/jobb
+mkdir søknad
+mv søknad\ som\ * søknad/.
+mv cv.odt søknad/.
+mv Metodekort\ kjøkken.odp søknad/.
+cd søknad
+zip søknad\ som\ butikkmedarbeider,\ fredrikstad.odt
+zip --help
+xinput
+xinput enable 13
+sudo apt install libreoffice
+flatpak list
+cd Dokumenter/jobb/projekt
+mv varer\ frys.* projekt/.
+cd projekt
+cat varer\ frys.csv| less -N
+cat database.odb
+hexdump database.odb
+strings database.odb
+nstat
+nstat --help
+man nstat
+ls Maler
+ls Maler/CV.ott
+ls -lah Maler/CV.ott
+ls -lah Maler/
+cd Crack
+cd .crack
+ls -a
+tmux la
+tmux ls
+cd Dokumenter/GitHub
+cd template
+cd Dokumenter/GitHub/template
+cp ~/Repo/game/Makefile .
+cp -r ~/Repo/game/src/utils src/.
+tree src
+rm src/type.h
+tree
+vim nvim/init.lua
+vim Makefile
+vim src/utils/math.c
+make cleanAll
+mkdir ls app
+rmdir ls
+cd app
+git clone https://github.com/annjersm/template.git
+mv template gl_test
+cd gl_test
+git init
+tmux new -s gl_test
+cd bin
+./app
+cd Repo/deps
+ls app
+cd
+unzip glew-2.1.0.zip
+cd glew-2.1.0
+cd .deps
+cp lib/* ~/.deps/lib/.
+cp -r include/* ~/.deps/include/.
+cd include
+cp -r ~/.deps/* .
+cat src/glew.c
+ls config
+ls build
+ls include/
+ls include/GL
+unzip glfw-3.4.zip
+cd glfw-3.4
+ls include
+ls include/GLFW
+sudo apt install glfw
+sudo apt install libgl1-mesa-dev libglu1-mesa-dev
+vim
+ls lib
+ømake
+vim ~/bin/tmux_init.sh
+tmux_ls
+make compile
+ls res
+mkdir res/shader
+touch res/shader.glsl
+5make
+make cleran
+sudo apt install java
+sudo apt install java-common
+java
+man java
+cd Nedlastinger
+ls -lah
+java OptiFine_1
+java OptiFine_1.20.4_HD_U_I7.jar
+java -jar forge-1.21-51.0.24-installer.jar
+make recompile
+ld
+makew
+make clean
+cd res
+rm shader.glsl
+cd shader
+mke
+mkae
+qmake
+poweroff
+cd Dokumenter
+glow programs.md
+ake
+sudo mount /dev/nvme1n1p1 /media/annjersm/steamLib
+As
+cd Repo/gl_test
+cd Repo
+nmcl
+sudo nmcl
+ls /etc/NetworkManager
+ls /etc/NetworkManager/system-connections
+nmcli
+nmcli help
+nmcli connect
+nmcli connect Telenor5006var
+nmcli device wifi list
+nmcli device wifi connect Telenor5006var password Forskningsarbeidere1
+nmcli device wifi connect Telenor5006var password Forskningsarbeidere6
+sudo mount /dev/nvme0n1p1 /media/annjersm/steamLib
+cd src
+touch test.cpp
+vim test.cpp
+vim src/test.cpp
+rm src/test.cpp
+glow Dokumenter/programs.md
+arandr
+nitrogen
+ls src
+make recompile run
+amke
+maek
+make cloc
+battery
+LSBLK
+alsamixer
+tmux_init.sh
+vimb
+tmux a
+sudo apt update
+sudo apt upgrade
+flatpak update
+sudo apt-get update
+sudo apt-get upgrade
+make
+fdisk /dev/sda
+fdisk 
+fdisk sda
+lsblk
+fdisk
+fdisk --help
+fdisk -l
+sudo fdisk /dev/sda
+kill 15514
+ps -e | grep vpn
+ping 1.1.1.1
+cd Skrivebord
+vim index.html
+rm index.html
+vim test.sh
+cd lua\ test
+vim main.lua
+pwd
+cd chess
+ls
+cd ..
+exit
+: 1723666240:0;lsblk
+: 1723666260:0;sudo fdisk /dev/sda
+: 1723667540:0;pwd
+: 1723667542:0;ls
+: 1723667548:0;ls -lah
+: 1723667599:0;rm -rf .Trash-1000
+: 1723667633:0;ls -lah
+: 1723671005:0;lsblk
+: 1723671051:0;sudo fdisk /dev/sda
+: 1723671466:0;lsblk

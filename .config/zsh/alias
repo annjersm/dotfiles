@@ -1,0 +1,7 @@
+
+alias ls='ls --color=always'
+alias grep='grep --color=auto'
+alias vim='nvim'
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
+alias tmux_init='~/bin/tmux_init.sh'
+alias vimb='vim src/main.c src/*'

@@ -59,17 +59,21 @@ PS1='%F{magenta}[%*] %F{red}(¬_¬)%f $vcs_info_msg_0_%F{blue}§%f '
 #PS1='%F{magenta}[%*] %F{green}%n%f $vcs_info_msg_0_$ '
 #PS1="%F{magenta}[%*] %F{green}%n%f %F{blue}%1~%f $vcs_info_msg_0_$ "
 
+# Aliases
 alias ls='ls --color=always'
 alias grep='grep --color=auto'
 alias vim='nvim'
+alias vimb='nvim src/main.c src/*'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-alias tmux_init='~/bin/tmux_init.sh'
-alias vimb='vim src/main.c src/*'
 
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 xinput set-prop "$(xinput list --name-only | grep -i touch)" "libinput Tapping Enabled" 1
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 
 export PATH="${PATH:+${PATH}:}~/bin"
+export PATH="${PATH:+${PATH}:}~/.local/bin"

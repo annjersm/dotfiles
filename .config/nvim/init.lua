@@ -16,9 +16,9 @@ vim.cmd "set number"
 vim.cmd "set relativenumber"
 vim.cmd "set guicursor=n-v-c-i:block-blinkon100-blinkoff100-blinkwait100"
 
-vim.cmd 'colorscheme darkrose'
-vim.cmd 'colorscheme test'
---vim.cmd "colorscheme tokyodark"
+--vim.cmd 'colorscheme darkrose'
+--vim.cmd 'colorscheme test'
+vim.cmd "colorscheme tokyodark"
 --vim.cmd 'colorscheme gruvbox'
 
 require ('nvim-autopairs').setup {
